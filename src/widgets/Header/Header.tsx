@@ -1,4 +1,4 @@
-import { ThemeSwitcher } from '@/features/ThemeSwitcher/ui/ThemeSwitcher/ThemeSwitcher';
+import { ThemeSwitcher } from '@/features/ThemeSwitcher';
 
 export const Header = () => {
 	return (

@@ -6,9 +6,7 @@ export const useTheme = () => {
 	const dispatch = useDispatch();
 	const currentTheme = useSelector((state: RootState) => state.theme.mode);
 
-	const toggleTheme = () => {
-		dispatch(themeActions.toggleTheme());
-	};
+	const toggleTheme = () => dispatch(themeActions.toggleTheme());
 
 	return {
 		currentTheme,
