@@ -3,7 +3,7 @@ import type { PayloadAction } from '@reduxjs/toolkit';
 
 type Theme = 'light' | 'dark';
 
-interface ThemeState {
+export interface ThemeState {
 	mode: Theme;
 }
 
